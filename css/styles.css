@@ -1,0 +1,127 @@
+/* для тегу <h1> color: #FFFFFF;
+   для тегу <h2; h3> color: #212121;
+   для тегу <p> color: #757575;
+   для :hover color: #2196F3;
+   додатковий фон background-color: #F5F4FA;
+   фон для <footer> background-color: #2F303A;
+*/
+
+:root {
+  --title-color: #212121;
+  --text-color: #757575;
+  --hover-accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: var(--title-color);
+}
+
+/* CAP */
+/* властивість для <ul>, забираємо крапки */
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-web {
+  color: var(--hover-accent-color);
+}
+
+.nav-link {
+  color: var(--title-color);
+}
+
+.auth-link {
+  color: var(--text-color);
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus,
+.auth-link:hover,
+.auth-link:focus {
+  color: var(--hover-accent-color);
+}
+
+.nav-link.current {
+  color: var(--hover-accent-color);
+}
+
+/* HERO */
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+.hero .button {
+  background-color: var(--hover-accent-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  background-color: #188ce8;
+  color: var(--primary-white-color);
+}
+
+/* FEATURES AND TEAM */
+/* властивість для прихованого заголовку */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.features-title,
+.team-title {
+}
+
+.features-text,
+.team-text {
+  color: var(--text-color);
+}
+
+.team {
+  background-color: #F5F4FA;
+}
+
+/* SERVICES */
+
+/* BASEMENT */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.footer-address .item {
+  color: var(--primary-white-color);
+}
+
+.footer-address .item:hover,
+.footer-address .item:focus {
+  color: var(--hover-accent-color);
+}
