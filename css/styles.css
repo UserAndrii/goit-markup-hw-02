@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   color: var(--title-color);
 
   font-family: 'Roboto', sans-serif;
@@ -151,6 +151,10 @@ body {
   background-color: #F5F4FA;
 }
 
+.team .team-list {
+  background-color: #FFFFFF;
+}
+
 .team .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -184,4 +188,40 @@ body {
 .footer-address .item:hover,
 .footer-address .item:focus {
   color: var(--hover-accent-color);
+}
+
+/* ---PORTFOLIO STYLES--- */
+/* FILTER */
+.filter .filter-btn {
+  color: var(--title-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter .filter-btn:hover,
+.filter .filter-btn:focus {
+  background-color: var(--hover-accent-color);
+  color: var(--primary-white-color);
+}
+
+/* PROJECTS */
+.projects .project-link{
+  text-decoration: none;
+}
+
+.projects .project-title {
+  color: var(--title-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects .project-text{
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.88;
 }
