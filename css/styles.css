@@ -41,7 +41,7 @@ body {
   color: var(--hover-accent-color);
 }
 
-.nav .nav-link {
+.nav-link {
   color: var(--title-color);
 
   font-weight: 500;
@@ -61,8 +61,8 @@ body {
   text-decoration: none;
 }
 
-.nav .nav-link:hover,
-.nav .nav-link:focus,
+.nav-link:hover,
+.nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--hover-accent-color);
@@ -90,7 +90,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero .button {
+.button {
   background-color: var(--hover-accent-color);
   color: var(--primary-white-color);
 
@@ -106,8 +106,8 @@ body {
   text-align: center;
 }
 
-.hero .button:hover,
-.hero .button:focus {
+.button:hover,
+.button:focus {
   background-color: #188ce8;
   color: var(--primary-white-color);
 }
@@ -127,14 +127,14 @@ body {
   margin: -1px;
 }
 
-.features .features-title {
+.features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.features .features-text {
+.features-text {
   color: var(--text-color);
 
   font-size: 14px;
@@ -157,17 +157,17 @@ body {
   background-color: #F5F4FA;
 }
 
-.team .team-list {
+.team-list {
   background-color: #FFFFFF;
 }
 
-.team .team-title {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
-.team .team-text {
+.team-text {
   color: var(--text-color);
 
   font-size: 16px;
@@ -187,20 +187,20 @@ body {
   font-style: normal;
 }
 
-.footer-address .item {
+.item {
   color: var(--primary-white-color);
   
   text-decoration: none;
 }
 
-.footer-address .item:hover,
-.footer-address .item:focus {
+.item:hover,
+.item:focus {
   color: var(--hover-accent-color);
 }
 
 /* ---PORTFOLIO STYLES--- */
 /* FILTER */
-.filter .filter-btn {
+.filter-btn {
   background-color: #F5F4FA;
   color: var(--title-color);
 
@@ -215,18 +215,18 @@ body {
   cursor: pointer;
 }
 
-.filter .filter-btn:hover,
-.filter .filter-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   background-color: var(--hover-accent-color);
   color: var(--primary-white-color);
 }
 
 /* PROJECTS */
-.projects .project-link{
+.project-link{
   text-decoration: none;
 }
 
-.projects .project-title {
+.project-title {
   color: var(--title-color);
 
   font-size: 18px;
@@ -234,7 +234,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.projects .project-text{
+.project-text{
   color: var(--text-color);
   
   font-size: 16px;
