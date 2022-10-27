@@ -47,7 +47,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -154,11 +154,11 @@ body {
 
 /* TEAM */
 .team {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .team-list {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -189,7 +189,7 @@ body {
 
 .item {
   color: var(--primary-white-color);
-  
+
   text-decoration: none;
 }
 
@@ -201,7 +201,7 @@ body {
 /* ---PORTFOLIO STYLES--- */
 /* FILTER */
 .filter-btn {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: var(--title-color);
 
   font-family: inherit;
@@ -210,7 +210,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  
+
   border-radius: 4px;
   cursor: pointer;
 }
@@ -222,7 +222,7 @@ body {
 }
 
 /* PROJECTS */
-.project-link{
+.project-link {
   text-decoration: none;
 }
 
@@ -234,9 +234,9 @@ body {
   letter-spacing: 0.06em;
 }
 
-.project-text{
+.project-text {
   color: var(--text-color);
-  
+
   font-size: 16px;
   line-height: 1.88;
 }
